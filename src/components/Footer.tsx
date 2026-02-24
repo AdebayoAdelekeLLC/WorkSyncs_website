@@ -18,12 +18,14 @@ const Footer = () => {
                 <h1 className="text-3xl md:text-6xl font-bold text-white">
                     Grow your business fast <br className="hidden md:block" /> with WorkSyncs.
                 </h1>
-                <Link
-                    href="/sign-up"
-                    className="mt-4 px-8 rounded-md w-full md:max-w-[250px] bg-white py-3 text-[#000D25] hover:bg-[#0097FE] hover:text-white font-bold transition-colors"
+                <a
+                    href="https://app.worksyncs.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-4 px-8 rounded-md w-full md:max-w-[250px] bg-white py-3 text-[#000D25] hover:bg-[#0097FE] hover:text-white font-bold transition-colors text-center"
                 >
                     Try WorkSyncs for Free
-                </Link>
+                </a>
             </div>
 
             <div className="relative z-10 flex flex-col md:flex-row items-center justify-between mt-10 gap-6">
