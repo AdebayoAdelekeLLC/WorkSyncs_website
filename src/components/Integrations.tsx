@@ -25,17 +25,16 @@ const Integrations = () => {
                     transition={{ duration: 0.6 }}
                     className="mb-20 relative z-10"
                 >
-                    <h2 className="text-4xl md:text-5xl font-light text-white leading-tight mb-8 tracking-tighter">
+                    <h2 className="text-3xl md:text-5xl font-light text-white leading-tight mb-8 tracking-tighter">
                         Integrate Your Favorite Apps
                     </h2>
-                    <p className="text-lg font-thin text-white tracking-widest">
+                    <p className="text-sm md:text-lg font-thin text-white tracking-widest">
                         Discover the Powerful Features That Make WorkSyncs the Ultimate <br className="hidden md:block" /> SaaS Solution for Scaling Your Business
                     </p>
                 </motion.div>
 
 
                 <div className="relative z-10 space-y-8">
-                    {/* Top Row: Right to Left */}
                     <div className="flex overflow-hidden group">
                         <motion.div
                             className="flex gap-6 pr-6"
@@ -52,7 +51,6 @@ const Integrations = () => {
                         </motion.div>
                     </div>
 
-                    {/* Bottom Row: Left to Right */}
                     <div className="flex overflow-hidden group">
                         <motion.div
                             className="flex gap-6 pr-6"

@@ -138,9 +138,14 @@ const Pricing = () => {
                                 ))}
                             </ul>
 
-                            <button className={`w-full py-4 rounded-xl font-bold text-base transition-all duration-300 bg-[#0095ff] text-white hover:bg-blue-600 shadow-lg shadow-blue-500/20`}>
+                            <a
+                                href="https://app.worksyncs.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={`w-full py-4 rounded-xl font-bold text-base transition-all duration-300 bg-[#0095ff] text-white hover:bg-blue-600 shadow-lg shadow-blue-500/20 block text-center`}
+                            >
                                 {plan.button}
-                            </button>
+                            </a>
                         </motion.div>
                     ))}
                 </div>

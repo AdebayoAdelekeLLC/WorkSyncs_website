@@ -51,9 +51,14 @@ const Header = () => {
                         ))}
                     </nav>
 
-                    <button className="hidden sm:block bg-[#0095ff] hover:bg-blue-500 text-white px-7 py-2.5 rounded-lg text-[11px] font-bold tracking-widest uppercase transition-all shadow-lg shadow-blue-500/20">
+                    <a
+                        href="https://app.worksyncs.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hidden sm:block bg-[#0095ff] hover:bg-blue-500 text-white px-7 py-2.5 rounded-lg text-[11px] font-bold tracking-widest uppercase transition-all shadow-lg shadow-blue-500/20 text-center"
+                    >
                         GET STARTED
-                    </button>
+                    </a>
 
                     <button
                         className="lg:hidden text-white p-2"
@@ -83,9 +88,14 @@ const Header = () => {
                                     {link}
                                 </Link>
                             ))}
-                            <button className="bg-[#0095ff] text-white px-8 py-4 rounded-xl font-bold tracking-widest uppercase mt-4">
+                            <a
+                                href="https://app.worksyncs.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-[#0095ff] text-white px-8 py-4 rounded-xl font-bold tracking-widest uppercase mt-4 text-center"
+                            >
                                 GET STARTED
-                            </button>
+                            </a>
                         </div>
                     </motion.div>
                 )}

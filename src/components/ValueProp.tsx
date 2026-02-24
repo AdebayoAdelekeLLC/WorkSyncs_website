@@ -48,9 +48,14 @@ const ValueProp = () => {
                             More Than a Workspace. <br className="hidden md:block" />
                             A New Solution for Workflow
                         </p>
-                        <button className="bg-[#0095ff] hover:bg-blue-500 text-white px-10 py-3.5 rounded-lg text-xs font-black tracking-widest uppercase transition-all shadow-lg shadow-blue-500/20">
+                        <a
+                            href="https://app.worksyncs.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bg-[#0095ff] hover:bg-blue-500 text-white px-10 py-3.5 rounded-lg text-xs font-black tracking-widest uppercase transition-all shadow-lg shadow-blue-500/20 inline-block text-center"
+                        >
                             Get Started
-                        </button>
+                        </a>
                     </div>
                 </div>
 
@@ -96,7 +101,7 @@ const ValueProp = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.8, delay: 0.3 }}
-                            className="absolute -bottom-8 -right-8 rounded-[2rem] shadow-[0_40px_80px_rgba(0,0,0,0.15)] max-w-[340px] z-10"
+                            className="absolute -bottom-8 -right-8 rounded-[2rem] shadow-[0_40px_80px_rgba(0,0,0,0.15)] max-w-[340px] z-10 hidden md:block"
                         >
                             <Image src={customerRating} alt="Customer Rating" />
                         </motion.div>

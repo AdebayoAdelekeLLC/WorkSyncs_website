@@ -83,27 +83,36 @@ const Showcase = () => {
 
             <div className="bg-[#03060d] relative px-6 md:px-12 py-24 overflow-hidden rounded-[2rem] md:rounded-[3rem] mb-24 min-h-[400px] md:min-h-[600px] flex flex-col justify-between">
                 <div className="relative z-10 w-full">
-                    <div className="grid lg:grid-cols-12 gap-12 items-center mb-24">
+                    <div className="grid lg:grid-cols-12 gap-12 items-stretch mb-24">
                         <motion.div
                             initial={{ opacity: 0, x: -30 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.8 }}
-                            className="lg:col-span-7"
+                            className="lg:col-span-7 h-full"
                         >
-                            <div className="rounded-2xl overflow-hidden border border-white/10 shadow-2xl h-[300px] md:h-[500px]">
-                                <Image src={dashboardImg} alt="Dashboard" className="w-full h-full object-cover" />
+                            <div className="rounded-2xl overflow-hidden border border-white/10 shadow-2xl h-full">
+                                <Image
+                                    src={dashboardImg}
+                                    alt="Dashboard"
+                                    className="w-full h-full object-cover"
+                                />
                             </div>
                         </motion.div>
+
                         <motion.div
                             initial={{ opacity: 0, x: 30 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.8 }}
-                            className="lg:col-span-5"
+                            className="lg:col-span-5 h-full"
                         >
-                            <div className="rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
-                                <Image src={salesChannels} alt="Sales Channels" className="w-full h-full object-cover" />
+                            <div className="rounded-2xl overflow-hidden border border-white/10 shadow-2xl h-full">
+                                <Image
+                                    src={salesChannels}
+                                    alt="Sales Channels"
+                                    className="w-full h-full object-cover"
+                                />
                             </div>
                         </motion.div>
                     </div>
@@ -112,13 +121,14 @@ const Showcase = () => {
                         <p className="text-sm font-bold text-[#FFFFFF] uppercase tracking-[0.3em]">
                             Trusted by thousands from worldwide
                         </p>
-
+                         
+                         {/* let's update this logo by making it display in two's on mobile, and the size should also be reduced on mobile */}
                         <div className="flex flex-wrap justify-center gap-10 opacity-70">
-                            <Image src={galileo} alt="Galileo" className="h-12 w-auto object-contain" />
-                            <Image src={featherdev} alt="FeatherDev" className="h-12 w-auto object-contain" />
-                            <Image src={boltshift} alt="Boltshift" className="h-12 w-auto object-contain" />
-                            <Image src={nietzsche} alt="Nietzsche" className="h-12 w-auto object-contain" />
-                            <Image src={globalbar} alt="GlobalBar" className="h-12 w-auto object-contain" />
+                            <Image src={galileo} alt="Galileo" className="h-8 w-auto object-contain md:h-12" />
+                            <Image src={featherdev} alt="FeatherDev" className="h-8 w-auto object-contain md:h-12" />
+                            <Image src={boltshift} alt="Boltshift" className="h-8 w-auto object-contain md:h-12" />
+                            <Image src={nietzsche} alt="Nietzsche" className="h-8 w-auto object-contain md:h-12" />
+                            <Image src={globalbar} alt="GlobalBar" className="h-8 w-auto object-contain md:h-12" />
                         </div>
                     </div>
                 </div>
