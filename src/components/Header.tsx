@@ -17,8 +17,8 @@ const Header = () => {
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
-
-    const navLinks = ["HOME", "FEATURES", "PRICING", "DOCS", "CONTACT US"];
+// "PRICING",
+    const navLinks = ["HOME", "FEATURES", "DOCS", "CONTACT US"];
 
     return (
         <motion.header

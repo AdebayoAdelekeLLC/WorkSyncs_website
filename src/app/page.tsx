@@ -23,13 +23,13 @@ export default function Home() {
             <section id="showcase">
                 <Showcase />
             </section>
-            <section id="integrations">
+            {/* <section id="integrations">
                 <Integrations />
             </section>
             <section id="pricing">
                 <Pricing />
             </section>
-            <Testimonials />
+            <Testimonials /> */}
             <Footer />
         </main>
     );
