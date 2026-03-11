@@ -30,8 +30,8 @@ const Showcase = () => {
                         viewport={{ once: true }}
                         transition={{ duration: 0.8 }}
                     >
-                        <h2 className="text-4xl md:text-5xl font-light text-gray-900 leading-tight mb-4">
-                            Tired of juggling multiple tools for HR and project management?
+                        <h2 className="text-4xl md:text-4xl font-light text-gray-900 leading-tight mb-4">
+                            Tired of switching between HR tools, project trackers, and messaging apps?
                         </h2>
                         <p className="text-lg font-thin text-gray-400 mb-8 max-w-lg leading-relaxed">
                             Are communication gaps causing project delays? You can now manage your team on one platform!

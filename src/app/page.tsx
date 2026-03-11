@@ -9,6 +9,7 @@ import Showcase from "@/components/Showcase";
 import Integrations from "@/components/Integrations";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
+import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -30,6 +31,7 @@ export default function Home() {
                 <Pricing />
             </section>
             <Testimonials /> */}
+            {/* <CTA /> */}
             <Footer />
         </main>
     );
