@@ -11,12 +11,12 @@ const Showcase = () => {
 
     const faqs = [
         {
-            question: "Can I use multiple devices with the same account?",
-            answer: "Our customer support operates 24/7. Feel free to reach out to us anytime you have questions or need assistance."
+            question: "How does WorkSyncs improve team productivity?",
+            answer: "WorkSyncs centralizes HR, project management, and team communication into one workspace, eliminating the need to switch between multiple apps and keeping your team focused."
         },
         {
-            question: "Can I use multiple devices with the same account?",
-            answer: "Our customer support operates 24/7. Feel free to reach out to us anytime you have questions or need assistance."
+            question: "Is WorkSyncs suitable for remote teams?",
+            answer: "Absolutely! WorkSyncs is designed to keep remote and distributed teams in sync with real-time updates, integrated messaging, and centralized project tracking."
         }
     ];
 

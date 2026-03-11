@@ -33,7 +33,7 @@ const Features = () => {
                                     className="bg-transparent px-6 py-4 flex-1 text-sm font-bold text-gray-800 placeholder:text-gray-400 focus:outline-none w-full"
                                 />
                                 <a
-                                    href="https://app.worksyncs.com"
+                                    href={`https://app.worksyncs.com/sign-up`}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="bg-[#0095ff] hover:bg-blue-500 text-white px-8 py-4 rounded-xl text-[11px] font-black tracking-widest uppercase transition-all shadow-lg shadow-blue-500/20 whitespace-normal sm:whitespace-nowrap text-center"
