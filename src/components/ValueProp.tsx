@@ -1,34 +1,40 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { User, PieChart, FileText, Banknote } from "lucide-react";
+import { User, PieChart, FileText, Banknote, MessageSquare } from "lucide-react";
 import { remoteWorkers, customerRating } from "@/images";
 import Image from "next/image";
 
 const ValueProp = () => {
     const features = [
         {
-            title: "HR & Leave Management",
-            description: "Streamline HR. Welcome new hires, track performance, and slash admin workload by X%",
+            title: "Employee & Department Management",
+            description: "Create departments, manage employee information, and keep your organizational structure clear.",
             icon: User,
             color: "bg-blue-50 text-blue-400"
         },
         {
-            title: "Project Management",
-            description: "Streamline HR. Welcome new hires, track performance, and slash admin workload by X%",
+            title: "Job Tracking",
+            description: "Assign jobs, monitor progress, and keep projects moving efficiently.",
             icon: PieChart,
             color: "bg-blue-50 text-blue-400"
         },
         {
-            title: "Attendance & Clock-In",
-            description: "Streamline HR. Welcome new hires, track performance, and slash admin workload by X%",
+            title: "Notes & Documents",
+            description: "Store company notes and documents including Word files, spreadsheets, presentations, and forms.",
             icon: FileText,
             color: "bg-[#0095ff] text-white"
         },
         {
-            title: "Resource Center",
-            description: "Streamline HR. Welcome new hires, track performance, and slash admin workload by X%",
+            title: "Contacts Management",
+            description: "Organize your business contacts and keep important details accessible to your team.",
             icon: Banknote,
+            color: "bg-blue-50 text-blue-400"
+        },
+        {
+            title: "Smart Team Chat",
+            description: "Collaborate with your team using real-time messaging with threads, mentions, attachments, and status updates.",
+            icon: MessageSquare,
             color: "bg-blue-50 text-blue-400"
         }
     ];
@@ -40,13 +46,16 @@ const ValueProp = () => {
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-24 text-left md:text-left">
                     <div className="">
                         <h2 className="text-3xl md:text-5xl text-[#0a0e1a] leading-tight">
-                            Ideal for In-Office Teams and <br className="hidden md:block" /> Perfect for Remote Workers!
+                            OUR WORKSPACE SOLUTION
                         </h2>
+                        <p className="text-base md:text-lg text-gray-500 mb-8 max-w-xl mx-auto lg:mx-0">
+                            WorkSyncs simplifies your operations by bringing together the essential tools every business needs.
+                        </p>
                     </div>
                     <div className="md:w-1/3 md:text-right">
                         <p className="text-base mb-6 tracking-widest font-light text-[#555555]">
-                            More Than a Workspace. <br className="hidden md:block" />
-                            A New Solution for Workflow
+                            One Workspace. <br className="hidden md:block" />
+                            Total Business Control
                         </p>
                         <a
                             href="https://app.worksyncs.com"

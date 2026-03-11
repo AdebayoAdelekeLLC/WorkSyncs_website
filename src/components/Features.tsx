@@ -19,11 +19,10 @@ const Features = () => {
                         className="flex-1 text-center lg:text-left"
                     >
                         <h2 className="text-3xl sm:text-4xl md:text-5xl text-[#0a0e1a] leading-tight mb-6 font-bold">
-                            Tired of juggling multiple tools for HR and project management?
+                            Manage employees, track work, and collaborate with your team — all in one platform.
                         </h2>
                         <p className="text-base md:text-lg text-gray-500 mb-8 max-w-xl mx-auto lg:mx-0">
-                            Are communication gaps causing project delays? <br className="hidden sm:block" />
-                            You can now manage your team on one platform!
+                            WorkSyncs brings HR management, job tracking, contacts management, and team communication into one powerful workspace so your business can run smoothly without juggling multiple tools.
                         </p>
 
                         <div className="max-w-md mx-auto lg:mx-0">
@@ -78,8 +77,9 @@ const Features = () => {
                     <div className="flex-1 flex flex-wrap justify-center lg:justify-start -space-y-10 sm:space-y-0 lg:-space-x-8">
                         {[
                             { label: "HUMAN\nRESOURCES", icon: users },
-                            { label: "PROJECT\nMANAGEMENT", icon: layout },
-                            { label: "CUSTOMER\nRELATIONSHIP", icon: percent },
+                            { label: "WORK\nMANAGEMENT", icon: layout },
+                            { label: "CONTACTS & CHAT", icon: percent },
+                            // { label: "CHAT", icon: percent },
                         ].map((item, idx) => (
                             <motion.div
                                 key={idx}
@@ -90,14 +90,14 @@ const Features = () => {
                                 className="flex flex-col items-center relative"
                                 style={{ zIndex: 10 + idx }}
                             >
-                                <div className="w-56 h-56 sm:w-64 sm:h-64 lg:w-80 lg:h-80 rounded-full border border-gray-200 flex flex-col gap-4 items-center justify-center bg-white hover:bg-gray-50 transition-all cursor-default group shadow-sm scale-90 sm:scale-100">
+                                <div className="w-56 h-56 sm:w-64 sm:h-64 lg:w-72 lg:h-72 rounded-full border border-gray-200 flex flex-col gap-4 items-center justify-center bg-white hover:bg-gray-50 transition-all cursor-default group shadow-sm scale-90 sm:scale-100">
                                     <div className="text-gray-800 transition-transform group-hover:scale-110 duration-300">
                                         <Image 
                                             src={item.icon} 
                                             alt="icon" 
                                             width={60} 
                                             height={60} 
-                                            className="w-12 h-12 sm:w-16 sm:h-16 lg:w-[100px] lg:h-[100px]" 
+                                            className="w-12 h-12 sm:w-16 sm:h-16 lg:w-[80px] lg:h-[80px]" 
                                         />
                                     </div>
 
@@ -116,9 +116,9 @@ const Features = () => {
                         transition={{ duration: 0.6 }}
                         className="flex-shrink-0 text-center lg:text-left py-10 lg:py-0"
                     >
-                        <h2 className="text-4xl sm:text-5xl md:text-6xl text-[#0a0e1a] leading-[1.1] tracking-tight">
-                            <span className="font-bold">Our 3-in-1</span> <br />
-                            <span className="font-light">Workspace <br /> Solution</span>
+                        <h2 className="text-4xl sm:text-4xl md:text-5xl text-[#0a0e1a] leading-[1.1] tracking-tight">
+                            <span className="font-bold">The All-in-One</span> <br />
+                            <span className="font-light">Team Workspace</span>
                         </h2>
                     </motion.div>
                 </div>
