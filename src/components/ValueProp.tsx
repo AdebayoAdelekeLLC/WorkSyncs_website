@@ -11,7 +11,7 @@ const ValueProp = () => {
             title: "Employee & Department Management",
             description: "Create departments, manage employee information, and keep your organizational structure clear.",
             icon: User,
-            color: "bg-blue-50 text-blue-400"
+            color: "bg-[#0095ff] text-white"
         },
         {
             title: "Job Tracking",
@@ -35,7 +35,7 @@ const ValueProp = () => {
             title: "Smart Team Chat",
             description: "Collaborate with your team using real-time messaging with threads, mentions, attachments, and status updates.",
             icon: MessageSquare,
-            color: "bg-blue-50 text-blue-400"
+            color: "bg-[#0095ff] text-white"
         }
     ];
 
