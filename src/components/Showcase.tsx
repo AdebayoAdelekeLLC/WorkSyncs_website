@@ -83,7 +83,7 @@ const Showcase = () => {
 
             <div className="bg-[#03060d] relative px-6 md:px-12 py-24 overflow-hidden rounded-[2rem] md:rounded-[3rem] mb-24 min-h-[400px] md:min-h-[600px] flex flex-col justify-between">
                 <div className="relative z-10 w-full">
-                    <div className="grid lg:grid-cols-12 gap-12 items-stretch mb-24">
+                    <div className="grid lg:grid-cols-12 gap-12 items-stretch">
                         <motion.div
                             initial={{ opacity: 0, x: -30 }}
                             whileInView={{ opacity: 1, x: 0 }}
@@ -117,12 +117,11 @@ const Showcase = () => {
                         </motion.div>
                     </div>
 
-                    <div className="flex flex-col items-center gap-10">
+                    {/* <div className="flex flex-col items-center gap-10">
                         <p className="text-sm font-bold text-[#FFFFFF] uppercase tracking-[0.3em]">
                             Trusted by thousands from worldwide
                         </p>
                          
-                         {/* let's update this logo by making it display in two's on mobile, and the size should also be reduced on mobile */}
                         <div className="flex flex-wrap justify-center gap-10 opacity-70">
                             <Image src={galileo} alt="Galileo" className="h-8 w-auto object-contain md:h-12" />
                             <Image src={featherdev} alt="FeatherDev" className="h-8 w-auto object-contain md:h-12" />
@@ -130,7 +129,7 @@ const Showcase = () => {
                             <Image src={nietzsche} alt="Nietzsche" className="h-8 w-auto object-contain md:h-12" />
                             <Image src={globalbar} alt="GlobalBar" className="h-8 w-auto object-contain md:h-12" />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="absolute bottom-0 left-0 w-full h-[200px] opacity-40 pointer-events-none">
